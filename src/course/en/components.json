@@ -23,14 +23,16 @@
 		"_layout": "left",
 		"title": "title",
 		"displayTitle": "",
-		"body": "",
+		"body": "This graphic component has conditional tex that can be set on all components in the course by adding true  to its parameter. This one is set up in component.hbs",
 		"instruction": "",
 		"_graphic": {
 			"large": "course/en/images/single_width.jpg",
 			"small": "course/en/images/single_width.jpg",
 			"alt": "Placeholder graphic.",
 			"attribution": ""
-		}
+		},
+        "conditional_content": "true",
+        "Project_DEV_commentary": "added condition to any component, ifconditional_content is true, render it"
 	},
     {
 		"_id": "p2_a1_b1_c2",

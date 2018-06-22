@@ -111,7 +111,7 @@
     "_id": "course",
     "_type": "course",
     "title": "hbs_course",
-    "displayTitle": "displaytitle",
+    "displayTitle": "hbs and json local rendering conditions",
     "description": "course 'description' content",
     "body": "course 'body' content",
     "_buttons": {
