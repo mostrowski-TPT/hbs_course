@@ -12,7 +12,7 @@
 		"instruction": "instruction content",
 		"_pageLevelProgress": {
 			"_isEnabled": true
-		}
+		} 
 	},
 	{
 		"_id": "p2_a1_b1_c1",
@@ -20,7 +20,7 @@
 		"_type": "component",
 		"_component": "graphic",
 		"_classes": "",
-		"_layout": "full",
+		"_layout": "left",
 		"title": "title",
 		"displayTitle": "",
 		"body": "",
@@ -31,5 +31,22 @@
 			"alt": "Placeholder graphic.",
 			"attribution": ""
 		}
+	},
+    {
+		"_id": "p2_a1_b1_c2",
+		"_parentId": "p2_a1_b1",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "title",
+		"displayTitle": "",
+		"body": "This graphic component contains video attr instead of graphic and thus this condition renderd in hbs",
+		"instruction": "",
+        "_video": {
+            "src": "course/en/video/postfour.mp4",
+			"alt": "Placeholder graphic."
+        },
+        "Project_DEV_commentary": "added 'video:' attribute to this json file. Removed '_graphic' attr. Those will be handled by hbs files"
 	}
 ]

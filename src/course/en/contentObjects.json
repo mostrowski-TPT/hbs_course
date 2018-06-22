@@ -6,7 +6,7 @@
 		"_classes": "",
 		"title": "Page one",
 		"displayTitle": "Page one",
-		"body": "Page 'body' text",
+		"body": "This item has 'video.src' attribute in json file",
 		"pageBody": "Page 'pageBody' text",
 		"instruction": "Page instruction",
 		"_graphic": {
@@ -18,6 +18,10 @@
 		"_pageLevelProgress": {
 			"_isEnabled": true
 		},
+        "_video": {
+            "src": "course/en/video/postfour.mp4",
+			"alt": "Placeholder graphic."
+        }, 
         "Project_DEV_commentary": "added '_footer:', 'logo:' and 'video:' attributes to this json file. Those will be handled by hbs files "
 	},
 	{
@@ -28,7 +32,7 @@
 		"title": "Page two",
 		"displayTitle": "Page two",
 		"body": "Page 'body' text",
-		"pageBody": "Page 'pageBody' text",
+		"pageBody": "This page has 'headervideo.src' attribute that renders it in the header",
 		"instruction": "Page instruction",
 		"_graphic": {
 			"src": "course/en/images/menu_thumb.jpg",
@@ -39,6 +43,10 @@
 		"_pageLevelProgress": {
 			"_isEnabled": true
 		},
+        "_headervideo": {
+            "src": "course/en/video/postone.mp4",
+			"alt": "Placeholder graphic."
+        }, 
         "Project_DEV_commentary": "added '_footer:', 'logo:' and 'video:' attributes to this json file. Those will be handled by hbs files "
 	}
 ]
