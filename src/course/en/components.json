@@ -13,6 +13,55 @@
 		"instruction": "",
 		"_pageLevelProgress": {
 			"_isEnabled": true
+		},
+        "Project_DEV_commentary": "added codexample attribute to this json file to render it in hbs"
+	},
+    {
+		"_id": "p1_a1_b1_c2",
+		"_parentId": "p1_a1_b1",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "title",
+		"displayTitle": "",
+		"body": "<p>Helper.js enables more hbs conditions<br><ul><li>#any - if attribute1 or attribute2</li><li>#all - if attribute1 && attribute2</li></ul></p>",
+        "codexample": "",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		} 
+	},
+    {
+		"_id": "p1_a1_b1_c2",
+		"_parentId": "p1_a1_b1",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "title",
+		"displayTitle": "",
+		"body": "<p>it also enables hbs rendering methods<br><ul><li>lowercase</li><li>capitalise</li><li>inc - json array index+1</li><li>dec - json array index-1</li><li>odd - checks if item is odd</li><li>compare - compares attributes</li><li>math - performs math method on attributes</li><li>equals</li></ul></p>",
+        "codexample": "",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		} 
+	},
+    {
+		"_id": "p1_a1_b1_c2",
+		"_parentId": "p1_a1_b1",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "title",
+		"displayTitle": "",
+		"body": "<p>Text compiling methods:<br><ul><li>compile_a11y_text - allow JSON to be a template and accessible text</li><li>compile_a11y_normalize - Allow JSON to be a template and normalized text</li><li>compile_a11y_remove_breaks - Remove all html tags except styling tags</li><li>import_globals - makes the _globals object in course.json available to a template</li><li>import_adapt - makes the Adapt module data available to a template</li></ul></p>",
+        "codexample": "",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
 		} 
 	},
 	{
