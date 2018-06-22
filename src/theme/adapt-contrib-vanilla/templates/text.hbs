@@ -1,5 +1,15 @@
 <div class="text-inner component-inner" role="region" aria-label="{{_globals._components._text.ariaRegion}}">
     {{> component this}}
-</div>
+   
+    
+<!--DEV_commentary: added codexample condition-->
+    {{#if codexample}}
+    <div>
+    <xmp>{{{codexample}}}</xmp>
+    </div>
+    Text above is also condition text in text component rendered if "codexample" attribute is present. This attribute is rendered within "xmp" tags which allow display of HTML characters without rendering.
+    {{/if}}
+    <!--DEV_commentary: added codexample condition-->
+    </div>
 
 

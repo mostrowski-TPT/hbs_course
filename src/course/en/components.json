@@ -8,8 +8,9 @@
 		"_layout": "full",
 		"title": "title",
 		"displayTitle": "",
-		"body": "'body' attribute content",
-		"instruction": "instruction content",
+		"body": "<p>hbs condition syntax is</p>",
+        "codexample": "{{#if jsonattribute}}<tag parameter='{{jsonattribute}}'>{{optional_helper.js_compiling_method jsonattribute}}</tag>",
+		"instruction": "",
 		"_pageLevelProgress": {
 			"_isEnabled": true
 		} 
